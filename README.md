@@ -1,11 +1,11 @@
-#THP_S04_Mercredi#
+#THP_S04_Mercredi
 <br />
 <br />
 
 Repo project blog
 <br />
 
-##Team-Programing :##
+##Team-Programing :
 <br />
 <br />
 @farida <br />
@@ -23,7 +23,7 @@ Do `Bundle Install` to install all gems
 <br />
 <br />
 
-#Console#
+#Console
 <br />
 
 Use `rails console` for view all the contents of database.
