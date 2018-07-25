@@ -1,19 +1,30 @@
-#THP_S04_Mercredi
+#THP_S04_Mercredi#
+<br />
+<br />
 
 Repo project blog
+<br />
 
-##Team-Programing :
-@farida
-@Nicolas B
-@Gabrielle Silvano
-@lise
-@Matcha
-@Nico Hermet
-@Salah
+##Team-Programing :##
+<br />
+<br />
+@farida <br />
+@Nicolas B <br />
+@Gabrielle Silvano <br />
+@lise <br />
+@Matcha <br />
+@Nico Hermet <br />
+@Salah <br />
+
+<br />
+<br />
 
 Do `Bundle Install` to install all gems
+<br />
+<br />
 
-#Console
+#Console#
+<br />
 
 Use `rails console` for view all the contents of database.
 
