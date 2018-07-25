@@ -1,0 +1,2 @@
+class Comentaire < ApplicationRecord
+end
