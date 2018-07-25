@@ -1,11 +1,11 @@
-Alt-H1 THP_S04_Mercredi
+<h1>THP_S04_Mercredi</h1>
 <br />
 <br />
 
 Repo project blog
 <br />
 
-##Team-Programing :
+<h2>Team-Programing :</h2>
 <br />
 <br />
 @farida <br />
@@ -23,7 +23,7 @@ Do `Bundle Install` to install all gems
 <br />
 <br />
 
-#Console
+<h2>Console</h2>
 <br />
 
 Use `rails console` for view all the contents of database.
