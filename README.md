@@ -1,24 +1,19 @@
-# README
+#THP_S04_Mercredi
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Repo project blog
 
-Things you may want to cover:
+##Team-Programing :
+@farida
+@Nicolas B
+@Gabrielle Silvano
+@lise
+@Matcha
+@Nico Hermet
+@Salah
 
-* Ruby version
+Do `Bundle Install` to install all gems
 
-* System dependencies
+#Console
 
-* Configuration
+Use `rails console` for view all the contents of database.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

@@ -7,19 +7,51 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 require 'faker'
-10.times do
-  User.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name,email: Faker::Internet.email)
-  Article.create(title: Faker::Movie.quote, content: Faker::StarWars.quote)
-  #b.update(user_id: a.id)
- 
+
+5.times do
+  Categorie.create(name: Faker::Color.color_name)
+
 end
 
 5.times do
-Categorie.create(name: Faker::Color.color_name)
-#b.update(categorie_id: c.id)
+  a = User.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name,email: Faker::Internet.email)
+  Article.create(title: Faker::Movie.quote, content: Faker::StarWars.quote, user_id: a.id, categorie_id: 1)
+ 
+  
 end
 
-15.times do
-Comentaire.create(content: Faker::Beer.name)
-#b.update(categorie_id: c.id)
+5.times do
+  a = User.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name,email: Faker::Internet.email)
+  Article.create(title: Faker::Movie.quote, content: Faker::StarWars.quote, user_id: a.id, categorie_id: 2)
+ 
+end
+
+
+
+5.times do
+  Comentaire.create(content: Faker::Beer.name, article_id: 1, user_id:1)
+
+end
+
+5.times do
+  Comentaire.create(content: Faker::Beer.name, article_id: 3, user_id:2)
+
+end
+
+5.times do
+  Comentaire.create(content: Faker::Beer.name, article_id: 4, user_id:6)
+
+end
+
+5.times do
+  Like.create(article_id: 4, user_id:6)
+
+end
+5.times do
+  Like.create(article_id: 2, user_id:3)
+
+end
+5.times do
+  Like.create(article_id: 5, user_id:9)
+
 end
